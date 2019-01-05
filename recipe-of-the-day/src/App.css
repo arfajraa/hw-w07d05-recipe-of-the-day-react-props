@@ -1,0 +1,45 @@
+.App{
+    /* display: flex; */
+    display: table;
+}
+
+.recipes{
+    /* flex: auto; */
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 127, 127);
+    padding: 30px;
+    border: 0.5px solid black;
+}
+
+.recipeOfTheDay{
+    /* flex: auto; */
+    display: table-cell;
+    background-color: rgb(228, 230, 142);
+    width: 50%;
+    height: 100%;
+    border: 0.5px solid black;
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.recipe{
+    background-color: rgb(243, 199, 199);
+    margin: 30px 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
